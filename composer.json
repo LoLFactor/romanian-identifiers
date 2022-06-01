@@ -1,0 +1,20 @@
+{
+  "name": "lolfactor/romanian-identifiers",
+  "description": "A library for validating (and randomly generating) Romanian government identifiers (CNP and identity card series and number).",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LoLFactor\\RomanianIdentifiers\\": "./src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "pestphp/pest": "^v1.21.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
