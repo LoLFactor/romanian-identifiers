@@ -9,6 +9,9 @@
     }
   },
   "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1"
+  },
   "require-dev": {
     "pestphp/pest": "^v1.21.3"
   },
