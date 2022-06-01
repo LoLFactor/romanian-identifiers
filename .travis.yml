@@ -2,7 +2,7 @@ language: php
 php:
   - 8.1
 before_script: composer install
-script: ./vendor/bin/pest --teamcity --coverage --configuration ./phpunit.xml
+script: ./vendor/bin/pest --coverage --configuration ./phpunit.xml
 after_success:
   - curl -Os https://uploader.codecov.io/latest/linux/codecov
   - chmod +x codecov
